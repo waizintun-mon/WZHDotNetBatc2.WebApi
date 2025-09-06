@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WZHDotNetBatc2.DataAccess\WZHDotNetBatc2.DataAccess.csproj" />
+    <ProjectReference Include="..\WZHDotNetBatc2.Database\WZHDotNetBatc2.Database.csproj" />
+    <ProjectReference Include="..\WZHDotNetBatc2.WebApi.BL\WZHDotNetBatc2.Service.csproj" />
+  </ItemGroup>
+
+</Project>
